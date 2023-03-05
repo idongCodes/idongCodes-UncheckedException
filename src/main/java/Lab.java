@@ -14,6 +14,10 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int[] myArr = {50, 5, 62, 11};
+        
+        int idxNotThere = myArr[4];
 
+        System.out.println(idxNotThere);
     }
 }
